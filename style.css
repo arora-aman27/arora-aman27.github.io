@@ -40,6 +40,7 @@ h2 {
   padding: 20px;
   margin: 10px auto;
   width: 300px;
+  min-height: 150px;
   border-radius: 10px;
 }
 
@@ -50,6 +51,17 @@ h2 {
   object-fit: cover;
   margin-bottom: 20px;
   border: 3px solid #38bdf8;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;   /* 🔥 better than margin */
+}
+
+.card {
+  margin: 0;   /* remove margin */
 }
 
 html {
@@ -116,4 +128,18 @@ h1, h2 {
   .nav-links {
     display: none;
   }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications li {
+  margin: 10px 0;
 }
