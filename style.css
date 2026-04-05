@@ -42,3 +42,8 @@ h2 {
   width: 300px;
   border-radius: 10px;
 }
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+}
